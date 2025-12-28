@@ -41,6 +41,18 @@
 
 **阅读链接**：[Vibe Coding x Android 工程化实践：（一）Figma Context MCP + Cursor 实现高效UI 工程化](docs/AI%20助力%20Android%20工程化实践：（一）Figma%20Context%20MCP%20+%20Cursor%20实现高效UI%20工程化.md)
 
+#### （二）Cursor Rules 构建团队级开发规范
+
+**简介**：从"AI 熵增"到"架构守门员"，让 AI 成为团队的标准化引擎
+
+**核心内容**：
+- 团队开发中的规范缺失问题分析
+- Cursor Rules 解决方案介绍
+- 实战对比：没有规则 vs 有规则的代码生成效果
+- 推荐开源项目：cursor-rules 规则库
+
+**阅读链接**：[Vibe Coding x Android 工程化实践：（二）Cursor Rules 构建团队级开发规范](docs/AI%20助力%20Android%20工程化实践：（二）Cursor%20Rules%20构建团队级开发规范.md)
+
 ### 即将发布
 
 - 更多 Vibe Coding 在 Android 开发中的应用实践

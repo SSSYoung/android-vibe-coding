@@ -271,6 +271,8 @@ data class UserDetailUiState(
 
 ## 3. 推荐开源项目：cursor-rules
 
+https://github.com/flyeric0212/cursor-rules
+
 该项目整理了来自不同项目的 Cursor 规则文件，提供多种编程语言和框架的规则支持，目前已有 1.5k+ stars，社区活跃度高。
 
 该项目采用分层结构组织规则：基础规则层（core、tech-stack、project-structure）、编程语言层（Kotlin、Java、TypeScript 等）、框架层（Android、React、Vue、Flutter 等）以及其他工具层（Git、文档等）。对于 Android 开发者来说，项目中的 `frameworks/android.mdc` 和 `languages/kotlin.mdc` 是最常用的规则文件。
