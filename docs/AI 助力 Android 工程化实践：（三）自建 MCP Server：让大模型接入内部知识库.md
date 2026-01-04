@@ -5,6 +5,9 @@
 ---
 
 ## 1. 背景
+开局一张图
+
+<img src="../assets/56e6e8c3c651f116e517547b9c79cc0f.jpg" alt="alt text" width="600">
 
 大模型懂公网知识，但看不见你的内部接口文档、私有 SDK、团队规范；你一旦问“内部问题”，它就可能开始“猜”，甚至编造接口/字段。
 
@@ -140,12 +143,13 @@ python demo/mcp-server/server.py
 输入以下prompt：
 > 调用mcp 工具，说明下如何使用内部埋点示例代码。
 > 
-![alt text](../assets/image-3.png)
+![alt text](../assets/image-3.png){width=66%}
 
 2）验证接口文档：
 输入以下prompt：
 > 请输出 用户模块接口文档的关键信息。
-> ![alt text](../assets/image-4.png)
+> 
+![alt text](../assets/image-4.png){width=66%}
 
 ## 3. 总结
 
