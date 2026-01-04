@@ -1,0 +1,48 @@
+内部埋点/日志规范示例（V1.0）
+
+1. 全局约束
+1) 统一使用 Tracker.logEvent(eventName, params)
+2) 禁止使用 Log.d / Log.i / Analytics.log 进行业务埋点
+3) eventName 采用小写下划线命名，例如：user_profile_view
+4) params 必须包含公共字段：page_id、element_id、biz_id
+5) 事件触发必须在主线程之外执行（避免阻塞 UI）
+
+2. 公共字段定义
+- page_id: 页面标识，例如 user_profile
+- element_id: 控件标识，例如 btn_save
+- biz_id: 业务线标识，例如 user
+- timestamp: 可选，毫秒时间戳
+
+3. 事件命名规则
+格式：{page}_{element}_{action}
+示例：user_profile_btn_save_click
+
+4. 典型事件示例
+4.1 用户进入资料页
+eventName: user_profile_page_view
+params:
+  - page_id: user_profile
+  - element_id: page_root
+  - biz_id: user
+
+4.2 点击保存按钮
+eventName: user_profile_btn_save_click
+params:
+  - page_id: user_profile
+  - element_id: btn_save
+  - biz_id: user
+
+5. Kotlin 示例
+Tracker.logEvent(
+    "user_profile_btn_save_click",
+    mapOf(
+        "page_id" to "user_profile",
+        "element_id" to "btn_save",
+        "biz_id" to "user"
+    )
+)
+
+6. 常见问题
+1) element_id 缺失：埋点无效，日志被丢弃
+2) eventName 不符合命名规范：lint 报错
+3) 在主线程同步上报：可能导致卡顿

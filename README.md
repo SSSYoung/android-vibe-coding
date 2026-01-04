@@ -53,6 +53,18 @@
 
 **阅读链接**：[Vibe Coding x Android 工程化实践：（二）Cursor Rules 构建团队级开发规范](docs/AI%20助力%20Android%20工程化实践：（二）Cursor%20Rules%20构建团队级开发规范.md)
 
+#### （三）构建团队的第二大脑——基于 RAG 的私有技术栈问答
+
+**简介**：让 AI 真正读懂你的代码——如何通过 Custom MCP 与 RAG 为团队构建私有知识库
+
+**核心内容**：
+- 通用 AI 在企业级开发中的“幻觉”痛点
+- Custom MCP Server 实战：从 0 到 1 搭建 AndroidKnowledgeServer
+- 私有 SDK（BeeNetwork）与架构规范的自动化植入
+- 进阶：基于向量数据库的真·RAG 应用场景（遗留代码考古、Crash 分析）
+
+**阅读链接**：[AI 助力 Android 工程化实践：（三）构建团队的第二大脑](docs/AI%20助力%20Android%20工程化实践：（三）构建团队的第二大脑.md)
+
 ### 即将发布
 
 - 更多 Vibe Coding 在 Android 开发中的应用实践

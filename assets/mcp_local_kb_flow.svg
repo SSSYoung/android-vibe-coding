@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="360" viewBox="0 0 1200 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="MCP 本地知识库检索链路">
+  <defs>
+    <style>
+      .box { fill: #ffffff; stroke: #1f2937; stroke-width: 2; rx: 14; }
+      .title { font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,"Noto Sans","PingFang SC","Microsoft YaHei",sans-serif; font-size: 18px; font-weight: 700; fill: #111827; }
+      .sub { font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,"Noto Sans","PingFang SC","Microsoft YaHei",sans-serif; font-size: 14px; fill: #374151; }
+      .label { font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,"Noto Sans","PingFang SC","Microsoft YaHei",sans-serif; font-size: 13px; fill: #111827; }
+      .muted { fill: #6b7280; }
+      .arrow { stroke: #111827; stroke-width: 2.5; fill: none; marker-end: url(#arrowhead); }
+      .dash { stroke-dasharray: 6 6; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#111827"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1200" height="360" fill="#ffffff"/>
+
+  <!-- Boxes -->
+  <rect class="box" x="60" y="120" width="250" height="120"/>
+  <text class="title" x="185" y="160" text-anchor="middle">IDE / 大模型</text>
+  <text class="sub" x="185" y="185" text-anchor="middle">Cursor / Claude / ChatGPT</text>
+  <text class="sub muted" x="185" y="210" text-anchor="middle">发起工具调用</text>
+
+  <rect class="box" x="350" y="120" width="220" height="120"/>
+  <text class="title" x="460" y="160" text-anchor="middle">MCP Client</text>
+  <text class="sub" x="460" y="185" text-anchor="middle">IDE 内置客户端</text>
+  <text class="sub muted" x="460" y="210" text-anchor="middle">负责协议与路由</text>
+
+  <rect class="box" x="610" y="95" width="280" height="170"/>
+  <text class="title" x="750" y="135" text-anchor="middle">MCP Server</text>
+  <text class="sub" x="750" y="160" text-anchor="middle">AndroidTeamKnowledge</text>
+  <text class="sub" x="750" y="185" text-anchor="middle">search_internal_docs(query)</text>
+  <text class="sub muted" x="750" y="210" text-anchor="middle">检索并返回文档片段</text>
+
+  <rect class="box" x="940" y="120" width="200" height="120"/>
+  <text class="title" x="1040" y="160" text-anchor="middle">内部文档</text>
+  <text class="sub" x="1040" y="185" text-anchor="middle">PDF / TXT</text>
+  <text class="sub muted" x="1040" y="210" text-anchor="middle">本地 / 内网</text>
+
+  <!-- Arrows -->
+  <path class="arrow" d="M 310 180 L 350 180"/>
+  <text class="label" x="330" y="168" text-anchor="middle">提问</text>
+
+  <path class="arrow" d="M 570 180 L 610 180"/>
+  <text class="label" x="590" y="168" text-anchor="middle">工具调用</text>
+
+  <path class="arrow" d="M 890 180 L 940 180"/>
+  <text class="label" x="915" y="168" text-anchor="middle">读取/检索</text>
+
+  <!-- Return arrow (dashed) -->
+  <path class="arrow dash" d="M 940 205 L 890 205"/>
+  <path class="arrow dash" d="M 610 205 L 570 205"/>
+  <path class="arrow dash" d="M 350 205 L 310 205"/>
+  <text class="label" x="620" y="260" text-anchor="middle">返回：相关片段（可作为上下文）</text>
+
+  <!-- Footer note -->
+  <text class="sub muted" x="600" y="320" text-anchor="middle">目标：让回答基于内部资料，减少编造，并可追溯来源</text>
+</svg>
