@@ -1,7 +1,9 @@
 from __future__ import annotations
 
+import logging
 import os
 import re
+import sys
 from pathlib import Path
 from typing import Iterable, List, Tuple
 
@@ -9,6 +11,9 @@ from mcp.server.fastmcp import FastMCP
 
 
 mcp = FastMCP("AndroidTeamKnowledge")
+
+logging.basicConfig(stream=sys.stderr, level=logging.INFO)
+logger = logging.getLogger("AndroidTeamKnowledge")
 
 # 默认从 demo 目录读取 PDF，也支持用环境变量覆盖目录路径
 BASE_DIR = Path(os.environ.get("KNOWLEDGE_BASE_DIR", Path(__file__).resolve().parent.parent))
@@ -85,7 +90,7 @@ def search_internal_docs(query: str) -> str:
     Search internal PDF docs for engineering specs and protocols.
     Trigger when users mention v2s, accessibility, or internal SDK rules.
     """
-    print(f"[mcp] search_internal_docs called, query={query!r}")
+    logger.info("search_internal_docs called, query=%r", query)
     # 延迟初始化索引，启动更快
     if not _DOCS:
         _build_index()
@@ -112,5 +117,5 @@ def search_internal_docs(query: str) -> str:
 
 
 if __name__ == "__main__":
-    print("Server running")
+    logger.info("Server running")
     mcp.run()
