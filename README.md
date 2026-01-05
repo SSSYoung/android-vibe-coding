@@ -32,36 +32,17 @@
 
 **简介**：从 Figma 设计稿快速生成可复用 UI（支持 XML 与 Jetpack Compose）
 
-**核心内容**：
-- 传统 UI 开发的痛点分析
-- MCP（Model Context Protocol）在 Android UI 开发中的应用
-- Figma Context MCP 的配置与使用
-- 从设计稿到代码的完整实践流程
-- XML 与 Jetpack Compose 两种实现方式对比
-
 **阅读链接**：[Vibe Coding x Android 工程化实践：（一）Figma Context MCP + Cursor 实现高效UI 工程化](docs/AI%20助力%20Android%20工程化实践：（一）Figma%20Context%20MCP%20+%20Cursor%20实现高效UI%20工程化.md)
 
 #### （二）Cursor Rules 构建团队级开发规范
 
 **简介**：从"AI 熵增"到"架构守门员"，让 AI 成为团队的标准化引擎
 
-**核心内容**：
-- 团队开发中的规范缺失问题分析
-- Cursor Rules 解决方案介绍
-- 实战对比：没有规则 vs 有规则的代码生成效果
-- 推荐开源项目：cursor-rules 规则库
-
 **阅读链接**：[Vibe Coding x Android 工程化实践：（二）Cursor Rules 构建团队级开发规范](docs/AI%20助力%20Android%20工程化实践：（二）Cursor%20Rules%20构建团队级开发规范.md)
 
 #### （三）自建 MCP Server：让大模型接入内部知识库
 
 **简介**：让 AI 不再"凭感觉回答"，而是基于你的内部文档给出可落地的结论与代码
-
-**核心内容**：
-- 大模型"幻觉"痛点：编造接口、混淆规范
-- MCP Server 实战：从 0 到 1 构建内部文档检索工具
-- 朴素关键词打分 MVP → 标准向量检索 RAG 演进路径
-- 工程化实践：增量索引、混合检索、可观测与治理
 
 **阅读链接**：[AI 助力 Android 工程化实践：（三）自建 MCP Server：让大模型接入内部知识库](docs/AI%20助力%20Android%20工程化实践：（三）自建%20MCP%20Server：让大模型接入内部知识库.md)
 
