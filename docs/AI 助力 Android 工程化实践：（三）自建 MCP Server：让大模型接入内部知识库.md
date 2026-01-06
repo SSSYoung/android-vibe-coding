@@ -1,4 +1,4 @@
-﻿# AI 助力 Android 工程化实践：（三）自建 MCP Server：让大模型接入内部知识库
+﻿# Vibe Coding x Android 工程化实践：（三）自建 MCP Server：让大模型接入内部知识库
 
 *—— 让 AI 不再“凭感觉回答”，而是基于你的内部文档给出可落地的结论与代码*
 
