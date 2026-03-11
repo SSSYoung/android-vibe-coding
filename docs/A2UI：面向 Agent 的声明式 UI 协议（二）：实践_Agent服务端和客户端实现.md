@@ -253,7 +253,7 @@ flowchart TB
         Processor["A2uiMessageProcessor<br/>消息处理器"]
         Surface["GenUiSurface<br/>渲染组件"]
         Catalog["CoreCatalogItems<br/>组件目录"]
-    endhttps://gitlab.desaysv.com/iov/IOV-VR-AI/vrcontrol2.0.git
+    end
     
     subgraph Flutter_App["Flutter App"]
         UI["应用 UI"]
