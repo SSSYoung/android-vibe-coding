@@ -31,39 +31,22 @@
 ### 已发布文章
 
 #### （一）Figma Context MCP + Cursor 实现高效 UI 工程化
-
-**简介**：从 Figma 设计稿快速生成可复用 UI（支持 XML 与 Jetpack Compose）
-
 **阅读链接**：[Vibe Coding x Android 工程化实践：（一）Figma Context MCP + Cursor 实现高效UI 工程化](docs/AI%20助力%20Android%20工程化实践：（一）Figma%20Context%20MCP%20+%20Cursor%20实现高效UI%20工程化.md)
 
 #### （二）Cursor Rules 构建团队级开发规范
-
-**简介**：从"AI 熵增"到"架构守门员"，让 AI 成为团队的标准化引擎
-
 **阅读链接**：[Vibe Coding x Android 工程化实践：（二）Cursor Rules 构建团队级开发规范](docs/AI%20助力%20Android%20工程化实践：（二）Cursor%20Rules%20构建团队级开发规范.md)
 
 #### （三）自建 MCP Server：让大模型接入内部知识库
-
-**简介**：让 AI 不再"凭感觉回答"，而是基于你的内部文档给出可落地的结论与代码
-
-**阅读链接**：[Vibe Coding x Android 工程化实践：（三）自建 MCP Server：让大模型接入内部知识库](docs/AI%20助力%20Android%20工程化实践：（三）自建%20MCP%20Server：让大模型接入内部知识库.md)
+**阅读链接**：[AI 助力 Android 工程化实践：（三）自建 MCP Server：让大模型接入内部知识库](docs/AI%20助力%20Android%20工程化实践：（三）自建%20MCP%20Server：让大模型接入内部知识库.md)
 
 ### 即将发布
 
 - 更多 Vibe Coding 在 Android 开发中的应用实践
 - 架构约束与设计模式实践
-- 渐进式重构案例分享
 
 ## A2UI系列：面向Agent的声明式UI协议
 
 > 探索AI Agent与UI开发的深度融合，构建声明式的用户界面交互协议
-
-### ✨ 系列特色
-
-- 🤖 **Agent优先**：专为AI Agent设计的UI交互范式
-- 📝 **声明式语法**：简洁明了的界面描述语言
-- 🔗 **无缝集成**：与现有Android开发体系完美融合
-- 🚀 **渐进演进**：从基础概念到高级特性的完整路径
 
 ### 📝 A2UI文章列表
 
