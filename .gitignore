@@ -43,3 +43,8 @@ node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# A2UI Research files
+docs/A2UI调研.html
+docs/A2UI调研.md
+docs/A2UI调研.pdf

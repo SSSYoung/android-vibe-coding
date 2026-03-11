@@ -1,0 +1,41 @@
+{
+  "AAPL": {
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "currency": "USD",
+    "price": 219.48,
+    "change": 1.23,
+    "change_percent": 0.56,
+    "open": 218.5,
+    "high": 220.1,
+    "low": 217.9,
+    "volume": 31500000,
+    "market_time": "As of 2026-03-02 14:30 UTC"
+  },
+  "TSLA": {
+    "symbol": "TSLA",
+    "name": "Tesla, Inc.",
+    "currency": "USD",
+    "price": 201.62,
+    "change": -2.11,
+    "change_percent": -1.04,
+    "open": 204.3,
+    "high": 205.7,
+    "low": 200.5,
+    "volume": 48220000,
+    "market_time": "As of 2026-03-02 14:30 UTC"
+  },
+  "NVDA": {
+    "symbol": "NVDA",
+    "name": "NVIDIA Corporation",
+    "currency": "USD",
+    "price": 132.77,
+    "change": 0.88,
+    "change_percent": 0.67,
+    "open": 131.8,
+    "high": 133.2,
+    "low": 130.9,
+    "volume": 56900000,
+    "market_time": "As of 2026-03-02 14:30 UTC"
+  }
+}

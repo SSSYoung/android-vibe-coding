@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/SSSYoung/android-vibe-coding?style=social)](https://github.com/SSSYoung/android-vibe-coding)
 
-> 以实践为核心，提供 AI 辅助开发、架构约束和渐进式重构示例，避免宏大叙事。
+> 聚焦 Android 团队的 AI 工程化落地：MCP 上下文接入、Cursor 规则、内部知识库问答，强调可复用与可实践。
 
 ### ✨ 项目特色
 
@@ -51,3 +51,7 @@
 - 更多 Vibe Coding 在 Android 开发中的应用实践
 - 架构约束与设计模式实践
 - 渐进式重构案例分享
+
+## Embedding 学习 Demos
+
+- Stage 1：`embedding/README.md`

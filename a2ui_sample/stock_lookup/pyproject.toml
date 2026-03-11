@@ -1,0 +1,35 @@
+[project]
+name = "a2ui-sample"
+version = "0.1.0"
+description = "A2UI 股票查询 Agent 示例，可独立运行的 A2A 服务端。"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "a2a-sdk>=0.3.0",
+    "click>=8.1.8",
+    "google-adk>=1.8.0",
+    "google-genai>=1.27.0",
+    "python-dotenv>=1.1.0",
+    "litellm",
+    "jsonschema>=4.0.0",
+    "a2ui-agent",
+    "httpx>=0.27.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[[tool.uv.index]]
+url = "https://pypi.org/simple"
+default = true
+
+[tool.uv.sources]
+# 指向本机 A2UI 仓库中的 a2ui_agent，若路径不同请按实际修改
+a2ui-agent = { path = "../../../A2UI/a2a_agents/python/a2ui_agent", editable = true }
