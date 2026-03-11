@@ -18,7 +18,6 @@
 - [项目介绍](#-项目介绍)
 - [文章列表](#-文章列表)
 - [A2UI系列](#a2ui系列)
-- [Embedding学习Demos](#embedding-学习-demos)
 
 ## 📖 项目介绍
 
