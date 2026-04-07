@@ -18,6 +18,7 @@
 - [项目介绍](#-项目介绍)
 - [文章列表](#-文章列表)
 - [A2UI系列](#a2ui系列)
+- [Vibe Coding 作品集](#vibe-coding-作品集)
 
 ## 📖 项目介绍
 
@@ -60,3 +61,14 @@
 #### （六）A2UI：面向 Agent 的声明式 UI 协议（三）：相关概念和技术架构
 
 **阅读链接**：[A2UI：面向 Agent 的声明式 UI 协议（三）：相关概念和技术架构](docs/A2UI：面向%20Agent%20的声明式%20UI%20协议（三）：相关概念和技术架构.md)
+
+## 🎨 Vibe Coding 作品集
+
+> Vibe Coding 作品集
+
+### 📝 作品列表
+
+#### DouYinKit
+
+- **项目地址**：[https://github.com/SSSYoung/DouYinKit](https://github.com/SSSYoung/DouYinKit)
+- **简介**：一个可以通过分享链接无水印加载抖音视频、音频的工具应用。即使该作品没有开发下载。
