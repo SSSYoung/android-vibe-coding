@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx skills:*)",
+      "Bash(mkdir -p hello-world-video)",
+      "Bash(npx remotion:*)",
+      "Bash(npx create-remotion@latest . --template hello-world)",
+      "Bash(npm init:*)",
+      "Bash(npm list:*)",
+      "Bash(wait)",
+      "Bash(npx figma-developer-mcp:*)",
+      "WebFetch(domain:www.figma.com)",
+      "Skill(update-config)",
+      "Skill(update-config:*)",
+      "WebFetch(domain:minimax-algeng-chat-tts.oss-cn-wulanchabu.aliyuncs.com)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\uidq9989\\.claude"
+    ]
+  }
+}
